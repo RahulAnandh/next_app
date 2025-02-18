@@ -1,12 +1,10 @@
 import Image from "next/image";
 import Logo from "../../public/logo.svg";
-import LayOut from "@/components/Layout";
+import Dashbord from "./dashboard/page";
 export default function Home() {
-  return true ? (
+  return (
     <div>
-      <LayOut />
+      <Dashbord />
     </div>
-  ) : (
-    <div>Login</div>
   );
 }
